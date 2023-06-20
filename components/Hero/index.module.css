@@ -1,0 +1,33 @@
+.hero {
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+.caption {
+    margin-top: 120px;
+    position: absolute;
+    top: 20%;
+    margin-left: 70px;
+}
+.caption h1 {
+    color: white;
+    font-size: 55px;
+    width: 80%;
+    line-height: 1.4;
+}
+.caption strong {
+    color: #f3003f;
+    display: block;
+    margin-bottom: 15px;
+}
+.caption p {
+    color: white;
+    width: 50%;
+    line-height: 1.9;
+    margin: 30px 0;
+    font-size: 19px;
+}
+.caption button {
+    padding: 20px 20px;
+    background-color: #f3003f;
+}
