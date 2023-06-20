@@ -96,8 +96,8 @@
     height: auto;
     color: black;
     background-color: white;
-    box-shadow: 5px 9px 15px 0 rgba(143, 143, 143, 0.2),
-      2.5px -9px 35px 0 rgba(143, 143, 143, 0.2);
+    /* box-shadow: 5px 9px 15px 0 rgba(143, 143, 143, 0.2),
+      2.5px -9px 35px 0 rgba(143, 143, 143, 0.2); */
     z-index: 13;
   }
   .mores {
@@ -230,7 +230,7 @@
     flex-flow: row wrap;
     justify-content: space-between;
     padding: 0 60px;
-    box-shadow: 5px 9px 15px 0 rgba(143, 143, 143, 0.2);
+    box-shadow: 5px 9px 15px 0 rgba(143, 143, 143, 0.04);
     z-index: 20;
     top: 0;
     position: sticky;
