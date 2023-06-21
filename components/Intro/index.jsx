@@ -8,6 +8,10 @@ import icon3 from "../../public/images/3.png";
 import icon4 from "../../public/images/4.png";
 import icon5 from "../../public/images/5.png";
 import icon6 from "../../public/images/6.png";
+import count1 from '../../public/images/count1.png'
+import count2 from '../../public/images/count2.png'
+import count3 from '../../public/images/count3.png'
+import count4 from '../../public/images/count4.png'
 
 const Intro = () => {
   const assets = [
@@ -77,7 +81,76 @@ const Intro = () => {
         </ParallaxBanner>
       </ParallaxProvider>
       <div className={styles.projects}>
-        dsds
+        <div>
+          <div>
+            <div className={styles.icons}>
+              <Image
+                src={count1}
+                objectFit="cover"
+                alt="card-image"
+                fill
+                quality={100}
+                priority={true}
+                sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+              />
+            </div>
+            <div className={styles.count}>
+            <span>40+</span>
+            &nbsp;Products
+            </div>
+          </div>
+          <div>
+            <div className={styles.icons}>
+              <Image
+                src={count2}
+                objectFit="cover"
+                alt="card-image"
+                fill
+                quality={100}
+                priority={true}
+                sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+              />
+            </div>
+            <div className={styles.count}>
+            <span>70+</span>
+            &nbsp;Projects
+            </div>
+          </div>
+          <div>
+            <div className={styles.icons}>
+              <Image
+                src={count3}
+                objectFit="cover"
+                alt="card-image"
+                fill
+                quality={100}
+                priority={true}
+                sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+              />
+            </div>
+            <div className={styles.count}>
+            <span>10+</span>
+            &nbsp;Awards
+            </div>
+          </div>
+          <div>
+            <div className={styles.icons}>
+              <Image
+                src={count4}
+                objectFit="cover"
+                alt="card-image"
+                fill
+                quality={100}
+                priority={true}
+                sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+              />
+            </div>
+            <div className={styles.count}>
+            <span>100+</span>
+            &nbsp;Clients
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   );
