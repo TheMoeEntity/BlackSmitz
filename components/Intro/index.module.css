@@ -21,8 +21,8 @@
     background-color: #031322;
     height: 320px;
     flex: 30%;
-    margin: 15px 10px;
-    padding: 40px;
+    margin: 15px 7px;
+    padding:30px 40px;
     display: flex;
     flex-flow: column wrap;
 }
@@ -41,8 +41,14 @@
 }
 .grid p {
     color: white;
-    font-weight: lighter;
+    font-weight: light;
     line-height: 1.4;
+    font-size: 14px;
+}
+.grid button {
+    background-color: transparent;
+    font-weight: bolder;
+    margin-top: 8px;
 }
 .projects {
     width: 100%;

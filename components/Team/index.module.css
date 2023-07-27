@@ -1,0 +1,61 @@
+.team {
+    width: 100%;
+    background-color: #031322;
+    height: auto;
+    padding: 100px 0;
+    color: white;
+}
+.title {
+    margin: 20px auto;
+    text-align: center;
+
+}
+.title > span {
+    color:#F3003F;
+    font-size: 19px;
+    font-weight: bolder;
+}
+.title h2 {
+    font-size: 40px;
+    margin: 15px 0;
+    margin-bottom: 40px;
+}
+.title h2 span {
+    color: #F3003F;
+}
+@media screen and (max-width: 550px) {
+
+}
+.slides {
+    height: 450px;
+    padding: 0 15px;
+    overflow: hidden;
+}
+.imgs {
+    position: relative;
+    width: 100%;
+    height: 77%;
+    border-radius: 20px;
+    
+}
+.imgs img {
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+.tab {
+    height: 23%;
+    width: 100%;
+    background-color: #010D14;
+    color: white;
+    padding: 20px 20px;
+}
+.tab strong{
+    display: block;
+
+}
+.tab span {
+    font-size: 15px;
+    font-weight: light;
+    margin-top: 10px;
+    display: block;
+}

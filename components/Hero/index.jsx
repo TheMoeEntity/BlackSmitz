@@ -1,4 +1,4 @@
-"use client"
+"use client";
 import React from "react";
 import styles from "./index.module.css";
 import Image from "next/image";
@@ -8,9 +8,8 @@ import { motion } from "framer-motion";
 import Link from "next/link";
 
 const Hero = () => {
-
   const divStyle = {
-    backgroundSize: "cover", 
+    backgroundSize: "cover",
     backgroundPosition: "center",
     height: "750px",
   };
@@ -41,13 +40,14 @@ const Hero = () => {
                   ...divStyle,
                   backgroundImage: `url(${slideImage.url})`,
                 }}
-              >
-              </div>
+              ></div>
               <div className={styles.caption}>
                 <strong>INDUSTRIAL SERVICES</strong>
                 <h1>BlackSmitz Manufacturing Company Service Solutions</h1>
                 <p>
-                  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptates eius quae iure sint? Distinctio, fugiat. Nihil, neque temporibus?
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                  Voluptates eius quae iure sint? Distinctio, fugiat. Nihil,
+                  neque temporibus lorem and lorem and some more?
                 </p>
                 <button>DISCOVER MORE</button>
               </div>

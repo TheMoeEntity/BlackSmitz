@@ -1,16 +1,17 @@
 import Hero from "./Hero"
 import Intro from "./Intro"
-import styles from '../app/page.module.css'
 import About from "./About"
 import Projects from "./Projects"
+import Team from "./Team"
 
 const HomePage = () => {
   return (
-    <main className={styles.main}>
+    <main>
       <Hero />
       <About />
       <Intro />
       <Projects />
+      <Team />
     </main>
   )
 }

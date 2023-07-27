@@ -8,10 +8,10 @@ import icon3 from "../../public/images/3.png";
 import icon4 from "../../public/images/4.png";
 import icon5 from "../../public/images/5.png";
 import icon6 from "../../public/images/6.png";
-import count1 from '../../public/images/count1.png'
-import count2 from '../../public/images/count2.png'
-import count3 from '../../public/images/count3.png'
-import count4 from '../../public/images/count4.png'
+import count1 from "../../public/images/count1.png";
+import count2 from "../../public/images/count2.png";
+import count3 from "../../public/images/count3.png";
+import count4 from "../../public/images/count4.png";
 
 const Intro = () => {
   const assets = [
@@ -43,7 +43,7 @@ const Intro = () => {
     {
       img: icon6,
       title: "Steel Fabrication",
-      note: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, id ea iure tenetur molestias eius?",
+      note: "Lorem ipsum dolor dolor dokir sit amet consectetur adipisicing elit. Ullam, id ea iure tenetur molestias eius?",
     },
   ];
   return (
@@ -75,6 +75,9 @@ const Intro = () => {
                 <div>
                   <p>{x.note}</p>
                 </div>
+                <div>
+                  <button>LEARN MORE &#8594;</button>
+                </div>
               </div>
             ))}
           </div>
@@ -95,8 +98,8 @@ const Intro = () => {
               />
             </div>
             <div className={styles.count}>
-            <span>40+</span>
-            &nbsp;Products
+              <span>40+</span>
+              &nbsp;Products
             </div>
           </div>
           <div>
@@ -112,8 +115,8 @@ const Intro = () => {
               />
             </div>
             <div className={styles.count}>
-            <span>70+</span>
-            &nbsp;Projects
+              <span>70+</span>
+              &nbsp;Projects
             </div>
           </div>
           <div>
@@ -129,8 +132,8 @@ const Intro = () => {
               />
             </div>
             <div className={styles.count}>
-            <span>10+</span>
-            &nbsp;Awards
+              <span>10+</span>
+              &nbsp;Awards
             </div>
           </div>
           <div>
@@ -146,8 +149,8 @@ const Intro = () => {
               />
             </div>
             <div className={styles.count}>
-            <span>100+</span>
-            &nbsp;Clients
+              <span>100+</span>
+              &nbsp;Clients
             </div>
           </div>
         </div>
